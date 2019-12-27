@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="calculator$sources"
+		revision="0.1"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20191213220430"/>
+	<dependencies>
+		<module organisation="org.scalafx" name="scalafxml-core-sfx8_2.13">
+			<revision name="0.5" status="release" pubdate="20190912044340" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/vigoo/scalafxml" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
+				<license name="APL2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3105" time="0" location="/home/zvladn7/.ivy2/cache/org.scalafx/scalafxml-core-sfx8_2.13/ivy-0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalafx/scalafxml-core-sfx8_2.13/0.5/scalafxml-core-sfx8_2.13-0.5.pom"/>
+				<caller organisation="default" name="calculator$sources" conf="test, compile, runtime" rev="0.5" rev-constraint-default="0.5" rev-constraint-dynamic="0.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalafxml-core-sfx8_2.13" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="3656" time="602" location="/home/zvladn7/.ivy2/cache/org.scalafx/scalafxml-core-sfx8_2.13/srcs/scalafxml-core-sfx8_2.13-0.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalafx/scalafxml-core-sfx8_2.13/0.5/scalafxml-core-sfx8_2.13-0.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.13">
+			<revision name="1.2.0" status="release" pubdate="20190607192354" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="9">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3264" time="0" location="/home/zvladn7/.ivy2/cache/org.scala-lang.modules/scala-xml_2.13/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.pom"/>
+				<caller organisation="default" name="calculator$sources" conf="test, compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-xml_2.13" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="111728" time="0" location="/home/zvladn7/.ivy2/cache/org.scala-lang.modules/scala-xml_2.13/srcs/scala-xml_2.13-1.2.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjfx" name="javafx-web">
+			<revision name="12.0.2" status="release" pubdate="20190727111841" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">
+				<license name="GPLv2+CE" url="https://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="no" details="" size="2792" time="0" location="/home/zvladn7/.ivy2/cache/org.openjfx/javafx-web/ivy-12.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjfx/javafx-web/12.0.2/javafx-web-12.0.2.pom"/>
+				<caller organisation="default" name="calculator$sources" conf="test, compile, runtime" rev="12.0.2" rev-constraint-default="12.0.2" rev-constraint-dynamic="12.0.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="javafx-web" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="521402" time="0" location="/home/zvladn7/.ivy2/cache/org.openjfx/javafx-web/srcs/javafx-web-12.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjfx/javafx-web/12.0.2/javafx-web-12.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjfx" name="javafx-swing">
+			<revision name="12.0.2" status="release" pubdate="20190727111750" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<license name="GPLv2+CE" url="https://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/zvladn7/.ivy2/cache/org.openjfx/javafx-swing/ivy-12.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjfx/javafx-swing/12.0.2/javafx-swing-12.0.2.pom"/>
+				<caller organisation="default" name="calculator$sources" conf="test, compile, runtime" rev="12.0.2" rev-constraint-default="12.0.2" rev-constraint-dynamic="12.0.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="javafx-swing" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="60210" time="0" location="/home/zvladn7/.ivy2/cache/org.openjfx/javafx-swing/srcs/javafx-swing-12.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjfx/javafx-swing/12.0.2/javafx-swing-12.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjfx" name="javafx-media">
+			<revision name="12.0.2" status="release" pubdate="20190727111602" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="4">
+				<license name="GPLv2+CE" url="https://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/zvladn7/.ivy2/cache/org.openjfx/javafx-media/ivy-12.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjfx/javafx-media/12.0.2/javafx-media-12.0.2.pom"/>
+				<caller organisation="default" name="calculator$sources" conf="test, compile, runtime" rev="12.0.2" rev-constraint-default="12.0.2" rev-constraint-dynamic="12.0.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="javafx-media" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="396317" time="0" location="/home/zvladn7/.ivy2/cache/org.openjfx/javafx-media/srcs/javafx-media-12.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjfx/javafx-media/12.0.2/javafx-media-12.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-swing_2.13">
+			<revision name="2.1.1" status="release" pubdate="20190609022040" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2791" time="0" location="/home/zvladn7/.ivy2/cache/org.scala-lang.modules/scala-swing_2.13/ivy-2.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.13/2.1.1/scala-swing_2.13-2.1.1.pom"/>
+				<caller organisation="default" name="calculator$sources" conf="test, compile, runtime" rev="2.1.1" rev-constraint-default="2.1.1" rev-constraint-dynamic="2.1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-swing_2.13" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="88842" time="0" location="/home/zvladn7/.ivy2/cache/org.scala-lang.modules/scala-swing_2.13/srcs/scala-swing_2.13-2.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.13/2.1.1/scala-swing_2.13-2.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.13.1" status="release" pubdate="20190918115106" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.scala-lang.org/" extra-info.apiURL="https://www.scala-lang.org/api/2.13.1/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2831" time="0" location="/home/zvladn7/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.13.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.pom"/>
+				<caller organisation="default" name="calculator$sources" conf="test, compile, runtime" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="0.1" extra-info.apiURL="https://www.scala-lang.org/api/2.13.1/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="632872" time="0" location="/home/zvladn7/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.13.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.13.1" status="release" pubdate="20190918115936" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.scala-lang.org/" extra-info.apiURL="https://www.scala-lang.org/api/2.13.1/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="11">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2659" time="0" location="/home/zvladn7/.ivy2/cache/org.scala-lang/scala-library/ivy-2.13.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.pom"/>
+				<caller organisation="default" name="calculator$sources" conf="test, compile, runtime" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="0.1" extra-info.apiURL="https://www.scala-lang.org/api/2.13.1/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="990442" time="0" location="/home/zvladn7/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.13.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalafx" name="scalafxml-core-macros-sfx8_2.13">
+			<revision name="0.5" status="release" pubdate="20190912044307" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/vigoo/scalafxml" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="APL2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2955" time="0" location="/home/zvladn7/.ivy2/cache/org.scalafx/scalafxml-core-macros-sfx8_2.13/ivy-0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalafx/scalafxml-core-macros-sfx8_2.13/0.5/scalafxml-core-macros-sfx8_2.13-0.5.pom"/>
+				<caller organisation="default" name="calculator$sources" conf="test, compile, runtime" rev="0.5" rev-constraint-default="0.5" rev-constraint-dynamic="0.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalafxml-core-macros-sfx8_2.13" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="3762" time="519" location="/home/zvladn7/.ivy2/cache/org.scalafx/scalafxml-core-macros-sfx8_2.13/srcs/scalafxml-core-macros-sfx8_2.13-0.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalafx/scalafxml-core-macros-sfx8_2.13/0.5/scalafxml-core-macros-sfx8_2.13-0.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalafx" name="scalafx_2.13">
+			<revision name="12.0.2-R18" status="release" pubdate="20190910065728" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalafx.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="10">
+				<license name="BSD" url="https://github.com/scalafx/scalafx/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2929" time="0" location="/home/zvladn7/.ivy2/cache/org.scalafx/scalafx_2.13/ivy-12.0.2-R18.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalafx/scalafx_2.13/12.0.2-R18/scalafx_2.13-12.0.2-R18.pom"/>
+				<caller organisation="default" name="calculator$sources" conf="test, compile, runtime" rev="12.0.2-R18" rev-constraint-default="12.0.2-R18" rev-constraint-dynamic="12.0.2-R18" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalafx_2.13" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1001491" time="0" location="/home/zvladn7/.ivy2/cache/org.scalafx/scalafx_2.13/srcs/scalafx_2.13-12.0.2-R18-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalafx/scalafx_2.13/12.0.2-R18/scalafx_2.13-12.0.2-R18-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjfx" name="javafx-fxml">
+			<revision name="12.0.2" status="release" pubdate="20190727111426" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="GPLv2+CE" url="https://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="no" details="" size="2651" time="0" location="/home/zvladn7/.ivy2/cache/org.openjfx/javafx-fxml/ivy-12.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjfx/javafx-fxml/12.0.2/javafx-fxml-12.0.2.pom"/>
+				<caller organisation="default" name="calculator$sources" conf="test, compile, runtime" rev="12.0.2" rev-constraint-default="12.0.2" rev-constraint-dynamic="12.0.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="javafx-fxml" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="98942" time="0" location="/home/zvladn7/.ivy2/cache/org.openjfx/javafx-fxml/srcs/javafx-fxml-12.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjfx/javafx-fxml/12.0.2/javafx-fxml-12.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjfx" name="javafx-controls">
+			<revision name="12.0.2" status="release" pubdate="20190727111406" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="5">
+				<license name="GPLv2+CE" url="https://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="no" details="" size="2659" time="0" location="/home/zvladn7/.ivy2/cache/org.openjfx/javafx-controls/ivy-12.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjfx/javafx-controls/12.0.2/javafx-controls-12.0.2.pom"/>
+				<caller organisation="default" name="calculator$sources" conf="test, compile, runtime" rev="12.0.2" rev-constraint-default="12.0.2" rev-constraint-dynamic="12.0.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="javafx-controls" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1419810" time="0" location="/home/zvladn7/.ivy2/cache/org.openjfx/javafx-controls/srcs/javafx-controls-12.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjfx/javafx-controls/12.0.2/javafx-controls-12.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjfx" name="javafx-graphics">
+			<revision name="12.0.2" status="release" pubdate="20190727111454" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="6">
+				<license name="GPLv2+CE" url="https://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="no" details="" size="2655" time="0" location="/home/zvladn7/.ivy2/cache/org.openjfx/javafx-graphics/ivy-12.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjfx/javafx-graphics/12.0.2/javafx-graphics-12.0.2.pom"/>
+				<caller organisation="default" name="calculator$sources" conf="test, compile, runtime" rev="12.0.2" rev-constraint-default="12.0.2" rev-constraint-dynamic="12.0.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="javafx-graphics" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4882096" time="0" location="/home/zvladn7/.ivy2/cache/org.openjfx/javafx-graphics/srcs/javafx-graphics-12.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjfx/javafx-graphics/12.0.2/javafx-graphics-12.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjfx" name="javafx-base">
+			<revision name="12.0.2" status="release" pubdate="20190727111342" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="12">
+				<license name="GPLv2+CE" url="https://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="no" details="" size="2472" time="0" location="/home/zvladn7/.ivy2/cache/org.openjfx/javafx-base/ivy-12.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjfx/javafx-base/12.0.2/javafx-base-12.0.2.pom"/>
+				<caller organisation="default" name="calculator$sources" conf="test, compile, runtime" rev="12.0.2" rev-constraint-default="12.0.2" rev-constraint-dynamic="12.0.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="javafx-base" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="584799" time="0" location="/home/zvladn7/.ivy2/cache/org.openjfx/javafx-base/srcs/javafx-base-12.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjfx/javafx-base/12.0.2/javafx-base-12.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
